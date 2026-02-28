@@ -1,0 +1,161 @@
+/* ================= GENERAL STYLING ================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    text-align: center;
+    color: black;
+}
+
+/* ================= HEADER ================= */
+.header {
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.header .site-title {
+    color: gold;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ================= PASSWORD CONTAINER ================= */
+.password-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.password-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #001f4d;
+}
+
+.password-container button {
+    padding: 10px 20px;
+    background-color: #001f4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.password-container button:hover {
+    background-color: gold;
+    color: black;
+    box-shadow: 0 0 10px gold;
+}
+
+/* ================= INFORMATION SECTIONS ================= */
+.info {
+    margin: 15px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.info-red {
+    background-color: #ffe5e5;
+    color: red;
+}
+
+.info-blue {
+    background-color: #e5e5ff;
+    color: blue;
+}
+
+.info-black {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.info-black .contact {
+    margin-top: 15px;
+}
+
+.info-black .contact a {
+    display: block;
+    margin-top: 5px;
+    color: #001f4d;
+    text-decoration: none;
+}
+
+.info-black .contact a:hover {
+    text-decoration: underline;
+}
+
+/* ================= LINKS SECTION ================= */
+.links-section {
+    margin: 15px auto;
+    padding: 15px;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fffbe5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.links-section a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #001f4d;
+    color: gold;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.links-section a:hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* ================= IMAGE GALLERY ================= */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.gallery-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background-color: #001f4d;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
