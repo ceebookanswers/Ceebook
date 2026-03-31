@@ -1,20 +1,20 @@
 function checkPassword() {
     var password = document.getElementById("password").value;
 
-    if (password === "123") {
+    if (password === "0000") {
         window.location.href = "math.html";
     } 
     else if (password === "567") {
         window.location.href = "https://www.ceebookanswers.com.ng/2021/01/how-to-subscribe100.html?m=1";
     } 
-    else if (password === "bio123") {
-        window.location.href = "biology.html";
+    else if (password === "1") {
+        window.location.href = "ans1.html";
     } 
-    else if (password === "gov123") {
-        window.location.href = "government.html";
+    else if (password === "222") {
+        window.location.href = "ans2.html";
     } 
-    else if (password === "ans1") {
-        window.location.href = "Ans1.html";
+    else if (password === "333") {
+        window.location.href = "ans3.html";
     } 
     else {
         alert("Wrong Password! Please contact Mr Dan.");
