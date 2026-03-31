@@ -21,7 +21,7 @@ function checkPassword() {
 
 
     } 
-    else if(password === "567") {
+    else if(password === "ans1") {
         window.location.href = "ans1.html";
     } 
     else if(password === "bio123") {
