@@ -22,7 +22,7 @@ function checkPassword() {
 
     } 
     else if(password === "ans1") {
-        window.location.href = "ans1.html";
+        window.location.href = "Ans1.html";
     } 
     else if(password === "bio123") {
         window.location.href = "biology.html";
