@@ -8,7 +8,7 @@ function checkPassword() {
         window.location.href = "https://www.ceebookanswers.com.ng/2021/01/how-to-subscribe100.html?m=1";
     } 
     else if (password === "111") {
-        window.location.href = "./ans1.html";
+        window.location.href = "https://wwwceebookanswers.com/ans1.html";
     } 
     else if (password === "222") {
         window.location.href = "ans2.html";
