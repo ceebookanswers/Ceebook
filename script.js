@@ -5,7 +5,7 @@ function checkPassword() {
         window.location.href = "https://www.ceebookanswers.com.ng/p/waec-mathematics-2025.html?m=1";
     } 
     else if (password === "567") {
-        window.location.href = "math.html";
+        window.location.href = "Copy.html";
     } 
     else if (password === "111") {
         window.location.href = "https://www.ceebookanswers.com.ng/p/lite.html?m=1";
