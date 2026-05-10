@@ -5,7 +5,7 @@ function checkPassword() {
         "186": "page186.html",
         "187": "page187.html",
         "188": "page188.html",
-        "222": "page2.html",
+        "189": "page189.html",
         "333": "page3.html",
         "444": "page4.html",
         "555": "page5.html",
