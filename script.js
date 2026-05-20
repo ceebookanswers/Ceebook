@@ -3,13 +3,13 @@ function checkPassword() {
 
     var routes = {
         "368": "page368.html",
-        "574": "page574.html",
+        "11": "page574.html",
+        "30": "page1.html",
+        "31": "page2.html",
+        "31": "page3.html",
         "310": "page310.html",
         "311": "page311.html",
         "312": "page312.html",
-        "444": "page4.html",
-        "555": "page5.html",
-        "666": "page6.html",
         "777": "page7.html",
         "888": "page8.html"
     };
