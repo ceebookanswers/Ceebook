@@ -3,7 +3,7 @@ function checkPassword() {
 
     var routes = {
         "368": "page368.html",
-        "11": "page574.html",
+        "574": "page574.html",
         "30": "page1.html",
         "31": "page2.html",
         "31": "page3.html",
