@@ -10,8 +10,8 @@ function checkPassword() {
         "310": "page310.html",
         "311": "page311.html",
         "312": "page312.html",
-        "574": "page574.html",
-        "888": "page8.html"
+        "99": "page99.html",
+        "574": "page574.html"
     };
 
     if (routes[password]) {
