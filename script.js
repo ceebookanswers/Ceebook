@@ -6,7 +6,7 @@ function checkPassword() {
         "648": "page648.html",
         "20": "page20.html",
         "99": "page99.html",
-        "202": "page202.html"
+        "022": "page022.html"
     };
 
     if (routes[password]) {
