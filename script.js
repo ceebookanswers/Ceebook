@@ -2,11 +2,11 @@ function checkPassword() {
     var password = document.getElementById("password").value.trim();
 
     var routes = {
-        "909": "page909.html",
+        "021": "page021.html",
         "648": "page648.html",
         "022": "page022.html",
         "99": "page99.html",
-        "021": "page021.html"
+        "01": "page01.html"
     };
 
     if (routes[password]) {
