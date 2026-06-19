@@ -2,7 +2,7 @@ function checkPassword() {
     var password = document.getElementById("password").value.trim();
 
     var routes = {
-        "021": "page021.html",
+        "601": "page601.html",
         "648": "page648.html",
         "022": "page022.html",
         "99": "page99.html",
